@@ -1,0 +1,68 @@
+{
+  "orders": [
+    {
+      "order_id": 1,
+      "pickup": 129,
+      "dropoff": 104
+    },
+    {
+      "order_id": 2,
+      "pickup": 80,
+      "dropoff": 101
+    },
+    {
+      "order_id": 3,
+      "pickup": 3,
+      "dropoff": 76
+    },
+    {
+      "order_id": 4,
+      "pickup": 111,
+      "dropoff": 72
+    },
+    {
+      "order_id": 5,
+      "pickup": 41,
+      "dropoff": 5
+    },
+    {
+      "order_id": 6,
+      "pickup": 199,
+      "dropoff": 56
+    },
+    {
+      "order_id": 7,
+      "pickup": 52,
+      "dropoff": 182
+    },
+    {
+      "order_id": 8,
+      "pickup": 29,
+      "dropoff": 11
+    },
+    {
+      "order_id": 9,
+      "pickup": 144,
+      "dropoff": 190
+    },
+    {
+      "order_id": 10,
+      "pickup": 173,
+      "dropoff": 99
+    },
+    {
+      "order_id": 11,
+      "pickup": 103,
+      "dropoff": 123
+    },
+    {
+      "order_id": 12,
+      "pickup": 122,
+      "dropoff": 59
+    }
+  ],
+  "fleet": {
+    "num_delivery_guys": 4,
+    "depot_node": 0
+  }
+}

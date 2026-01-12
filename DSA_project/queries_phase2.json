@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "id": "phase2_generated"
+  },
+  "events": [
+    {
+      "type": "k_shortest_paths",
+      "id": 1,
+      "source": 156,
+      "target": 115,
+      "k": 6
+    },
+    {
+      "type": "k_shortest_paths",
+      "id": 2,
+      "source": 27,
+      "target": 189,
+      "k": 4
+    },
+    {
+      "type": "k_shortest_paths",
+      "id": 3,
+      "source": 2,
+      "target": 159,
+      "k": 7
+    },
+    {
+      "type": "k_shortest_paths",
+      "id": 4,
+      "source": 94,
+      "target": 171,
+      "k": 3
+    },
+    {
+      "type": "k_shortest_paths_heuristic",
+      "id": 5,
+      "source": 168,
+      "target": 94,
+      "k": 3,
+      "overlap_threshold": 40
+    },
+    {
+      "type": "k_shortest_paths_heuristic",
+      "id": 6,
+      "source": 119,
+      "target": 71,
+      "k": 6,
+      "overlap_threshold": 30
+    },
+    {
+      "type": "k_shortest_paths_heuristic",
+      "id": 7,
+      "source": 120,
+      "target": 15,
+      "k": 6,
+      "overlap_threshold": 40
+    },
+    {
+      "type": "k_shortest_paths_heuristic",
+      "id": 8,
+      "source": 131,
+      "target": 131,
+      "k": 4,
+      "overlap_threshold": 50
+    },
+    {
+      "type": "approx_shortest_path",
+      "id": 9,
+      "time_budget_ms": 20,
+      "acceptable_error_pct": 15.0,
+      "queries": [
+        {
+          "source": 49,
+          "target": 197
+        },
+        {
+          "source": 188,
+          "target": 137
+        },
+        {
+          "source": 193,
+          "target": 69
+        },
+        {
+          "source": 141,
+          "target": 161
+        },
+        {
+          "source": 195,
+          "target": 167
+        },
+        {
+          "source": 107,
+          "target": 105
+        }
+      ]
+    },
+    {
+      "type": "approx_shortest_path",
+      "id": 10,
+      "time_budget_ms": 100,
+      "acceptable_error_pct": 15.0,
+      "queries": [
+        {
+          "source": 84,
+          "target": 17
+        },
+        {
+          "source": 93,
+          "target": 167
+        }
+      ]
+    },
+    {
+      "type": "approx_shortest_path",
+      "id": 11,
+      "time_budget_ms": 20,
+      "acceptable_error_pct": 5.0,
+      "queries": [
+        {
+          "source": 179,
+          "target": 82
+        },
+        {
+          "source": 171,
+          "target": 183
+        },
+        {
+          "source": 49,
+          "target": 77
+        },
+        {
+          "source": 96,
+          "target": 58
+        },
+        {
+          "source": 160,
+          "target": 173
+        }
+      ]
+    }
+  ]
+}

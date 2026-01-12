@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "id": "phase1_generated"
+  },
+  "events": [
+    {
+      "type": "shortest_path",
+      "id": 1,
+      "source": 111,
+      "target": 71,
+      "mode": "time"
+    },
+    {
+      "type": "shortest_path",
+      "id": 2,
+      "source": 58,
+      "target": 125,
+      "mode": "distance"
+    },
+    {
+      "type": "shortest_path",
+      "id": 3,
+      "source": 137,
+      "target": 104,
+      "mode": "time"
+    },
+    {
+      "type": "shortest_path",
+      "id": 4,
+      "source": 156,
+      "target": 11,
+      "mode": "distance",
+      "constraints": {
+        "forbidden_nodes": [
+          163
+        ],
+        "forbidden_road_types": [
+          "local"
+        ]
+      }
+    },
+    {
+      "type": "shortest_path",
+      "id": 5,
+      "source": 39,
+      "target": 150,
+      "mode": "distance"
+    },
+    {
+      "type": "shortest_path",
+      "id": 6,
+      "source": 199,
+      "target": 19,
+      "mode": "time"
+    },
+    {
+      "type": "shortest_path",
+      "id": 7,
+      "source": 77,
+      "target": 60,
+      "mode": "time",
+      "constraints": {
+        "forbidden_nodes": [
+          36
+        ]
+      }
+    },
+    {
+      "type": "shortest_path",
+      "id": 8,
+      "source": 143,
+      "target": 68,
+      "mode": "time"
+    },
+    {
+      "type": "knn",
+      "id": 9,
+      "poi": "atm",
+      "query_point": {
+        "lat": 19.053150910761726,
+        "lon": 72.87150400957489
+      },
+      "k": 5,
+      "metric": "euclidean"
+    },
+    {
+      "type": "knn",
+      "id": 10,
+      "poi": "restaurant",
+      "query_point": {
+        "lat": 19.099581698857737,
+        "lon": 72.8921548014286
+      },
+      "k": 2,
+      "metric": "shortest_path"
+    },
+    {
+      "type": "knn",
+      "id": 11,
+      "poi": "restaurant",
+      "query_point": {
+        "lat": 19.094280172385147,
+        "lon": 72.88728918682484
+      },
+      "k": 3,
+      "metric": "shortest_path"
+    }
+  ]
+}
