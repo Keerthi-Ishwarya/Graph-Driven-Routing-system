@@ -1,0 +1,396 @@
+2025-11-25 15:20:12 | autograder | ERROR | Error: The file '../final-evaluation/phase1' does not exist.
+2025-11-25 15:20:12 | autograder | ERROR | Error: The file '../final-evaluation/phase2' does not exist.
+2025-11-25 15:20:12 | autograder | ERROR | Error: The file '../final-evaluation/phase3' does not exist.
+2025-11-25 15:20:12 | autograder | INFO | Wrote results to ../final-evaluation/results.json
+2025-11-25 15:42:05 | autograder | INFO | Loaded results from ../final-evaluation/results.json
+2025-11-25 15:42:05 | autograder | INFO | Testing Phase 1 for submission at ../final-evaluation/phase1
+2025-11-25 15:42:05 | autograder | INFO | Testing Phase 1, Task 1a for submission at ../final-evaluation/phase1
+2025-11-25 15:42:05 | autograder | ERROR | Exception occurred while testing Phase 1, Task 1a: [Errno 13] Permission denied: '/tmp/ds/final-evaluationp1t1i1.json'
+Traceback (most recent call last):
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/autograder.py", line 70, in secure_run
+    result, json = test_function(submission_path, logger)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/phase1.py", line 29, in test_p1_task_1a
+    graph, in_file, exp_file, tmp_file = test_files(1, 1, 1, submission_path)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/utils.py", line 67, in test_files
+    with open(tmp_file, "w") as dst:
+         ^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/tmp/ds/final-evaluationp1t1i1.json'
+2025-11-25 15:42:05 | autograder | INFO | Testing Phase 1, Task 1b for submission at ../final-evaluation/phase1
+2025-11-25 15:42:05 | autograder | ERROR | Exception occurred while testing Phase 1, Task 1b: [Errno 13] Permission denied: '/tmp/ds/final-evaluationp1t1i2.json'
+Traceback (most recent call last):
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/autograder.py", line 70, in secure_run
+    result, json = test_function(submission_path, logger)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/phase1.py", line 36, in test_p1_task_1b
+    graph, in_file, exp_file, tmp_file = test_files(1, 1, 2, submission_path)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/utils.py", line 67, in test_files
+    with open(tmp_file, "w") as dst:
+         ^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/tmp/ds/final-evaluationp1t1i2.json'
+2025-11-25 15:42:05 | autograder | INFO | Testing Phase 1, Task 2a for submission at ../final-evaluation/phase1
+2025-11-25 15:42:05 | autograder | ERROR | Exception occurred while testing Phase 1, Task 2a: [Errno 13] Permission denied: '/tmp/ds/final-evaluationp1t2i1.json'
+Traceback (most recent call last):
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/autograder.py", line 70, in secure_run
+    result, json = test_function(submission_path, logger)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/phase1.py", line 43, in test_p1_task_2a
+    graph, in_file, exp_file, tmp_file = test_files(1, 2, 1, submission_path)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/utils.py", line 67, in test_files
+    with open(tmp_file, "w") as dst:
+         ^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/tmp/ds/final-evaluationp1t2i1.json'
+2025-11-25 15:42:05 | autograder | INFO | Testing Phase 1, Task 2b for submission at ../final-evaluation/phase1
+2025-11-25 15:42:05 | autograder | ERROR | Exception occurred while testing Phase 1, Task 2b: [Errno 13] Permission denied: '/tmp/ds/final-evaluationp1t2i2.json'
+Traceback (most recent call last):
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/autograder.py", line 70, in secure_run
+    result, json = test_function(submission_path, logger)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/phase1.py", line 50, in test_p1_task_2b
+    graph, in_file, exp_file, tmp_file = test_files(1, 2, 2, submission_path)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/utils.py", line 67, in test_files
+    with open(tmp_file, "w") as dst:
+         ^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/tmp/ds/final-evaluationp1t2i2.json'
+2025-11-25 15:42:05 | autograder | INFO | Testing Phase 2 for submission at ../final-evaluation/phase2
+2025-11-25 15:42:05 | autograder | INFO | Testing Phase 2, Task 1 for submission at ../final-evaluation/phase2
+2025-11-25 15:42:05 | autograder | ERROR | Exception occurred while testing Phase 2, Task 1: [Errno 13] Permission denied: '/tmp/ds/final-evaluationp2t1i1.json'
+Traceback (most recent call last):
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/autograder.py", line 70, in secure_run
+    result, json = test_function(submission_path, logger)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/phase2.py", line 19, in test_p2_task_1
+    graph, in_file, exp_file, tmp_file = test_files(
+                                         ^^^^^^^^^^^
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/utils.py", line 67, in test_files
+    with open(tmp_file, "w") as dst:
+         ^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/tmp/ds/final-evaluationp2t1i1.json'
+2025-11-25 15:42:05 | autograder | INFO | Testing Phase 2, Task 2 for submission at ../final-evaluation/phase2
+2025-11-25 15:42:05 | autograder | ERROR | Exception occurred while testing Phase 2, Task 2: [Errno 13] Permission denied: '/tmp/ds/final-evaluationp2t2i1.json'
+Traceback (most recent call last):
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/autograder.py", line 70, in secure_run
+    result, json = test_function(submission_path, logger)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/phase2.py", line 104, in test_p2_task_2
+    graph, in_file, _, tmp_file = test_files(
+                                  ^^^^^^^^^^^
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/utils.py", line 67, in test_files
+    with open(tmp_file, "w") as dst:
+         ^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/tmp/ds/final-evaluationp2t2i1.json'
+2025-11-25 15:42:05 | autograder | INFO | Testing Phase 2, Task 3 for submission at ../final-evaluation/phase2
+2025-11-25 15:42:05 | autograder | ERROR | Exception occurred while testing Phase 2, Task 3: [Errno 13] Permission denied: '/tmp/ds/final-evaluationp2t3i1.json'
+Traceback (most recent call last):
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/autograder.py", line 70, in secure_run
+    result, json = test_function(submission_path, logger)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/phase2.py", line 164, in test_p2_task_3
+    graph, in_file, exp_file, tmp_file = test_files(2, 3, 1, submission_path)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/utils.py", line 67, in test_files
+    with open(tmp_file, "w") as dst:
+         ^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/tmp/ds/final-evaluationp2t3i1.json'
+2025-11-25 15:42:05 | autograder | INFO | Testing Phase 3 for submission at ../final-evaluation/phase3
+2025-11-25 15:42:05 | autograder | INFO | Testing Phase 3, Task 1 for submission at ../final-evaluation/phase3
+2025-11-25 15:42:05 | autograder | ERROR | Exception occurred while testing Phase 3, Task 1: [Errno 13] Permission denied: '/tmp/ds/final-evaluationp3t1i1.json'
+Traceback (most recent call last):
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/autograder.py", line 70, in secure_run
+    result, json = test_function(submission_path, logger)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/phase3.py", line 98, in test_p3_task_1
+    graph_file, in_file, _, tmp_file = test_files(3, 1, k, submission_path)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/24b1098_24b1038_24b1091/autograder/utils.py", line 67, in test_files
+    with open(tmp_file, "w") as dst:
+         ^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/tmp/ds/final-evaluationp3t1i1.json'
+2025-11-25 15:42:05 | autograder | INFO | Wrote results to ../final-evaluation/results.json
+2025-11-25 15:42:21 | autograder | INFO | Loaded results from ../final-evaluation/results.json
+2025-11-25 15:42:21 | autograder | INFO | Testing Phase 1 for submission at ../final-evaluation/phase1
+2025-11-25 15:42:21 | autograder | INFO | Testing Phase 1, Task 1a for submission at ../final-evaluation/phase1
+2025-11-25 15:42:40 | autograder | DEBUG | 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 0 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 1 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 2 type=modify_edge: Modified edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 3 type=modify_edge: Modified edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 4 type=remove_edge: Removed edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 5 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 6 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 7 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 8 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 9 type=modify_edge: Modified edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 10 type=remove_edge: Removed edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 11 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 12 type=modify_edge: Modified edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 13 type=modify_edge: Modified edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 14 type=remove_edge: Removed edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 15 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 16 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 17 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 18 type=modify_edge: Modified edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 19 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 20 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 21 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 22 type=remove_edge: Removed edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 23 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 24 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 25 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 26 type=modify_edge: Modified edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 27 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 28 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 29 type=remove_edge: Removed edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 30 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 31 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 32 type=modify_edge: Modified edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 33 type=modify_edge: Modified edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 34 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 35 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 36 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 37 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 38 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 39 type=remove_edge: Removed edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 40 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 41 type=remove_edge: Removed edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 42 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 43 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 44 type=remove_edge: Removed edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 45 type=modify_edge: Modified edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 46 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 47 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 48 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 49 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 50 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 51 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 52 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 53 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 54 type=modify_edge: Modified edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 55 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 56 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 57 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 58 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 59 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 60 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 61 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 62 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 63 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 64 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 65 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 66 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 67 type=modify_edge: Modified edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 68 type=modify_edge: Modified edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 69 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 70 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 71 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 72 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 73 type=remove_edge: Removed edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 74 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 75 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 76 type=remove_edge: Removed edge successfully
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 77 type=shortest_path: 
+2025-11-25 15:42:45 | autograder | DEBUG | [PASS] Query 78 type=modify_edge: Modified edge successfully
+2025-11-25 15:42:45 | autograder | INFO | Correct: 79 / 79
+2025-11-25 15:42:46 | autograder | INFO | Testing Phase 1, Task 1b for submission at ../final-evaluation/phase1
+2025-11-25 15:42:57 | autograder | DEBUG | 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 0 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 1 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 2 type=shortest_path: 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 3 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 4 type=shortest_path: 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 5 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 6 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 7 type=shortest_path: 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 8 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 9 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 10 type=shortest_path: 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 11 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 12 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 13 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 14 type=remove_edge: Removed edge successfully
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 15 type=shortest_path: 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 16 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 17 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 18 type=shortest_path: 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 19 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 20 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 21 type=shortest_path: 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 22 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 23 type=shortest_path: 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 24 type=shortest_path: 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 25 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 26 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 27 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 28 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 29 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 30 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 31 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 32 type=shortest_path: 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 33 type=shortest_path: 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 34 type=shortest_path: 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 35 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 36 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 37 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 38 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 39 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 40 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 41 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 42 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 43 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 44 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 45 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 46 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 47 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 48 type=shortest_path: 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 49 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 50 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 51 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 52 type=shortest_path: 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 53 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 54 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 55 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 56 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 57 type=shortest_path: 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 58 type=shortest_path: 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 59 type=shortest_path: 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 60 type=shortest_path: 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 61 type=shortest_path: 
+2025-11-25 15:43:04 | autograder | DEBUG | [PASS] Query 62 type=shortest_path: 
+2025-11-25 15:43:05 | autograder | DEBUG | [PASS] Query 63 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:05 | autograder | DEBUG | [PASS] Query 64 type=shortest_path: 
+2025-11-25 15:43:05 | autograder | DEBUG | [PASS] Query 65 type=shortest_path: 
+2025-11-25 15:43:05 | autograder | DEBUG | [PASS] Query 66 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:05 | autograder | DEBUG | [PASS] Query 67 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:05 | autograder | DEBUG | [PASS] Query 68 type=shortest_path: 
+2025-11-25 15:43:05 | autograder | DEBUG | [PASS] Query 69 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:05 | autograder | DEBUG | [PASS] Query 70 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:05 | autograder | DEBUG | [PASS] Query 71 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:05 | autograder | DEBUG | [PASS] Query 72 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:05 | autograder | DEBUG | [PASS] Query 73 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:05 | autograder | DEBUG | [PASS] Query 74 type=shortest_path: 
+2025-11-25 15:43:05 | autograder | DEBUG | [PASS] Query 75 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:05 | autograder | DEBUG | [PASS] Query 76 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:05 | autograder | DEBUG | [PASS] Query 77 type=remove_edge: Removed edge successfully
+2025-11-25 15:43:05 | autograder | DEBUG | [PASS] Query 78 type=shortest_path: 
+2025-11-25 15:43:05 | autograder | DEBUG | [PASS] Query 79 type=shortest_path: Shortest path is correct along with the report time
+2025-11-25 15:43:05 | autograder | INFO | Correct: 80 / 80
+2025-11-25 15:43:05 | autograder | INFO | Testing Phase 1, Task 2a for submission at ../final-evaluation/phase1
+2025-11-25 15:43:16 | autograder | DEBUG | 
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 0 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 1 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 2 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 3 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 4 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 5 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 6 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 7 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 8 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 9 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 10 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 11 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 12 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 13 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 14 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 15 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 16 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 17 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 18 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 19 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 20 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 21 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 22 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 23 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 24 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 25 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 26 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 27 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 28 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | DEBUG | [PASS] Query 29 type=knn: Shortest path knn works with euclidian distances
+2025-11-25 15:43:24 | autograder | INFO | Correct: 30 / 30
+2025-11-25 15:43:24 | autograder | INFO | Testing Phase 1, Task 2b for submission at ../final-evaluation/phase1
+2025-11-25 15:43:40 | autograder | DEBUG | 
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 0 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 1 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 2 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 3 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 4 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 5 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 6 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 7 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 8 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 9 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 10 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 11 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 12 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 13 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 14 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 15 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 16 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 17 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 18 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 19 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 20 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 21 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 22 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 23 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 24 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 25 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 26 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 27 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 28 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 29 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 30 type=remove_edge: Removed edge successfully
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 31 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 32 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 33 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 34 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 35 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 36 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 37 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 38 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 39 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 40 type=remove_edge: Removed edge successfully
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 41 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 42 type=modify_edge: Modified edge successfully
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 43 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | DEBUG | [PASS] Query 44 type=knn: Shortest path knn works
+2025-11-25 15:43:46 | autograder | INFO | Correct: 45 / 45
+2025-11-25 15:43:47 | autograder | INFO | Testing Phase 2 for submission at ../final-evaluation/phase2
+2025-11-25 15:43:47 | autograder | INFO | Testing Phase 2, Task 1 for submission at ../final-evaluation/phase2
+2025-11-25 15:43:47 | autograder | DEBUG | 
+2025-11-25 15:43:47 | autograder | DEBUG | 
+2025-11-25 15:44:24 | autograder | DEBUG | 
+2025-11-25 15:44:43 | autograder | INFO | Testing Phase 2, Task 2 for submission at ../final-evaluation/phase2
+2025-11-25 15:44:43 | autograder | DEBUG | 
+2025-11-25 15:45:08 | autograder | DEBUG | 
+2025-11-25 15:45:14 | autograder | INFO | Testing Phase 2, Task 3 for submission at ../final-evaluation/phase2
+2025-11-25 15:45:26 | autograder | DEBUG | 
+2025-11-25 15:45:26 | autograder | INFO | Testing Phase 3 for submission at ../final-evaluation/phase3
+2025-11-25 15:45:26 | autograder | INFO | Testing Phase 3, Task 1 for submission at ../final-evaluation/phase3
+2025-11-25 15:45:26 | autograder | DEBUG | Failed to load precomputed data. Run ./precompute first!
+
+2025-11-25 15:45:26 | autograder | ERROR | Submission failed/timed out for test 1
+2025-11-25 15:45:26 | autograder | INFO | Wrote results to ../final-evaluation/results.json
+2025-11-25 15:54:27 | autograder | INFO | Loaded results from ../final-evaluation/results.json
+2025-11-25 15:54:27 | autograder | INFO | Testing Phase 3 for submission at ../final-evaluation/phase3
+2025-11-25 15:54:27 | autograder | INFO | Testing Phase 3, Task 1 for submission at ../final-evaluation/phase3
+2025-11-25 15:54:27 | autograder | DEBUG | Failed to load precomputed data. Run ./precompute first!
+
+2025-11-25 15:54:27 | autograder | ERROR | Submission failed/timed out for test 1
+2025-11-25 15:54:27 | autograder | INFO | Wrote results to ../final-evaluation/results.json
+2025-11-25 15:55:14 | autograder | INFO | Loaded results from ../final-evaluation/results.json
+2025-11-25 15:55:14 | autograder | INFO | Testing Phase 2 for submission at ../final-evaluation/phase2
+2025-11-25 15:55:14 | autograder | INFO | Testing Phase 2, Task 1 for submission at ../final-evaluation/phase2
+2025-11-25 15:55:14 | autograder | DEBUG | 
+2025-11-25 15:55:14 | autograder | DEBUG | 
+2025-11-25 15:55:44 | autograder | DEBUG | 
+2025-11-25 15:56:03 | autograder | INFO | Testing Phase 2, Task 2 for submission at ../final-evaluation/phase2
+2025-11-25 15:56:04 | autograder | DEBUG | 
+2025-11-25 15:56:26 | autograder | DEBUG | 
+2025-11-25 15:56:33 | autograder | INFO | Testing Phase 2, Task 3 for submission at ../final-evaluation/phase2
+2025-11-25 16:15:27 | autograder | DEBUG | 
+2025-11-25 16:15:27 | autograder | INFO | Wrote results to ../final-evaluation/results.json

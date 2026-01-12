@@ -1,0 +1,161 @@
+{
+    "phase1": {
+        "task_1a": {
+            "results": {
+                "correct": 79,
+                "total": 79
+            },
+            "processing_time": 308.54470000000003,
+            "total_time": 18729.95686531067
+        },
+        "task_1b": {
+            "results": {
+                "correct": 80,
+                "total": 80
+            },
+            "processing_time": 412.14124000000004,
+            "total_time": 11632.102727890015
+        },
+        "task_2a": {
+            "results": {
+                "correct": 30,
+                "total": 30
+            },
+            "processing_time": 85.71089700000002,
+            "total_time": 11552.053213119507
+        },
+        "task_2b": {
+            "results": {
+                "correct": 45,
+                "total": 45
+            },
+            "processing_time": 1315.5287899999996,
+            "total_time": 15201.253175735474
+        },
+        "last_update": "2025-11-25 15:43:47"
+    },
+    "phase2": {
+        "task_1": [
+            {
+                "total_time": 27.52208709716797,
+                "processing_time": 1.845962,
+                "correct": [
+                    1,
+                    1
+                ]
+            },
+            {
+                "total_time": 129.6408176422119,
+                "processing_time": 69.391695,
+                "correct": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "total_time": 28830.798625946045,
+                "processing_time": 26877.498046,
+                "correct": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            }
+        ],
+        "task_2": [
+            {
+                "total_time": 651.8974304199219,
+                "processing_time": 262.24296699999996,
+                "penalties": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "total_time": 22138.243436813354,
+                "processing_time": 11973.434558,
+                "penalties": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "task_3": {
+            "total_time": 1133999.2566108704,
+            "query_results": [
+                {
+                    "id": 0,
+                    "correct": 0,
+                    "incorrect": 0,
+                    "processing_time": 26.853749
+                },
+                {
+                    "id": 1,
+                    "correct": 0,
+                    "incorrect": 0,
+                    "processing_time": 33.432043
+                },
+                {
+                    "id": 2,
+                    "correct": 0,
+                    "incorrect": 0,
+                    "processing_time": 27.02206
+                },
+                {
+                    "id": 3,
+                    "correct": 0,
+                    "incorrect": 0,
+                    "processing_time": 32.007727
+                },
+                {
+                    "id": 4,
+                    "correct": 0,
+                    "incorrect": 0,
+                    "processing_time": 31.767116
+                },
+                {
+                    "id": 5,
+                    "correct": 1,
+                    "incorrect": 0,
+                    "processing_time": 26.657171
+                },
+                {
+                    "id": 6,
+                    "correct": 0,
+                    "incorrect": 0,
+                    "processing_time": 33.001864
+                },
+                {
+                    "id": 7,
+                    "correct": 0,
+                    "incorrect": 0,
+                    "processing_time": 32.833384
+                }
+            ]
+        },
+        "last_update": "2025-11-25 16:15:27"
+    },
+    "phase3": {
+        "task_1": {},
+        "last_update": "2025-11-25 15:54:27"
+    }
+}
